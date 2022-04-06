@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<style>
+    #lft
+    {
+        position: absolute;
+        left:0px;
+        top:0px;
+        width:15vw;
+        height: 100vh;
+        background-color: lightgray;
+    }
+    #jso
+    {
+        position: absolute;
+        left:15vw;
+        top:0px;
+        width:20vw;
+        height: 100vh;
+        background-color: white;
+        overflow: scroll;
+    }
+    #main
+    {
+        position: absolute;
+        left:35vw;
+        top:0px;
+        width:65vw;
+        height: 100vh;
+        background-color: white;
+    }
+    #sel
+    {
+        position: absolute;
+        left:10px;
+        top:10px;
+        width:14vw;
+        height: 40px;
+        text-align: center;
+        font-size: large;
+
+    }
+    .opt
+    {
+        text-align: center;
+        font-size: large;
+    }
+    #zapiszBtn
+    {
+        position: absolute;
+        left:10px;
+        top:60px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #wczytaj
+    {
+        position: absolute;
+        left:10px;
+        top:130px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #wall
+    {
+        position: absolute;
+        left:10px;
+        top:200px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #enemy
+    {
+        position: absolute;
+        left:10px;
+        top:270px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #treasure
+    {
+        position: absolute;
+        left:10px;
+        top:340px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #light
+    {
+        position: absolute;
+        left:10px;
+        top:410px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+    }
+    #goto
+    {
+        position: absolute;
+        left:10px;
+        top:480px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+        color: red;
+    }
+    #game
+    {
+        position: absolute;
+        left:10px;
+        top:550px;
+        width:14vw;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        font-size: large;  
+        color: red;
+    }
+    .hex
+    {
+        background-image: url("graf/hex.png");
+        background-size: cover;
+        position: absolute;
+        width:116px;
+        height: 100px;
+        background-color: transparent;
+        text-align: center;
+        color:white
+    }
+    .chld
+    {
+        display: block;
+        background-image: url("graf/hexa.png");
+        background-size: cover;
+        position: absolute;
+        width:116px;
+        height: 100px;
+        background-color: transparent;
+        
+        
+    }
+    .disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+</style>
+<body class="disable-select">
+<script src="mainScritpt.js"></script>
+<script src="hex.js"></script>
+</body>
+</html>
